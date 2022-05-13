@@ -18,3 +18,13 @@ In this project I built a single page text editor application; that runs in the 
 
 ## Criteria I met
 ## Deployed application
+
+### Github Repository
+https://github.com/LisaCR01/Text-Editor.git
+[Link to Github Repository](https://github.com/LisaCR01/Text-Editor.git)
+
+
+## Contact Information
+- [Email](mailto:lcrgunn@gmail.com)
+- [Github](https://github.com/LisaCR01)
+- [LinkedIn](https://www.linkedin.com/in/LisaCR01)
