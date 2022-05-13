@@ -27,9 +27,22 @@ module.exports = () => {
         swSrc: './src-sw.js',
         swDest: 'src-sw.js',
       }),
+      new WebpackPwaManifest({
+        name: "Text Editor",
+        short_name: "Text Editor",
+        description: "create notes or code snippets",
+        icons: [
+          {
+          src: path.resolve("src/images/logo.png"),
+          size: [96, 128, 192, 256, 384, 512],
+          destination: path.join('assets', 'icons'),
+          }
+        ],
+        start_url: "/",
+        theme_color: "#31a9e2",
+        background_color: "#272822",
+      })
     ],
-
-    // need to add manifest
 
     module: {
       rules: [
