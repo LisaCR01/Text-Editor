@@ -22,7 +22,7 @@ In this project I built a single page text editor application; that runs in the 
 - When the application is run; then the js files have been bundled via webpack.
 - When the webpack plugins are run than a: HTML file, service worker, and manifest file are generated.
 - When next-gen JavaScript is used in the application; then it still functions in the browser without errors.
-- When the applicationn
+- When the application
 
 
 WHEN I open the text editor
