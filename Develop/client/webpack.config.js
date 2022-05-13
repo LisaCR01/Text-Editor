@@ -16,6 +16,7 @@ module.exports = () => {
     output: {
       filename: '[name].bundle.js',
       path: path.resolve(__dirname, 'dist'),
+      publicPath: "",
     },
     plugins: [
       new HtmlWebpackPlugin({
@@ -41,6 +42,7 @@ module.exports = () => {
         start_url: "/",
         theme_color: "#31a9e2",
         background_color: "#272822",
+        fingerprints: false
       })
     ],
 
