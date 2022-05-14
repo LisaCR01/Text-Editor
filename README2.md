@@ -17,28 +17,19 @@ In this project I built a single page text editor application; that runs in the 
 - idb package
 
 ## Criteria I met
-- Having opened the application in their editor; the client server folder structure is viewable.
-- When npm run start is run in the root directory than the application should start up the backend and serve the client
-- When the application is run; then the js files have been bundled via webpack.
-- When the webpack plugins are run than a: HTML file, service worker, and manifest file are generated.
-- When next-gen JavaScript is used in the application; then it still functions in the browser without errors.
-- When the application
+- When opened in editor, the client server folder structure is visible.
+- When npm run start occurs at the root, than the backend starts and serves the client.
+- When run, the JavaScript files have been bundled via webpack.
+- When the webpack plugins are run, a: HTML file, service worker, and manifest file are generated.
+- When next-gen JavaScript is used; it still functions without errors.
+- When opened, the IndexedDB immediately creates a database storage.
+- When content is entered and click off the DOM window, the application content is saved with IndexedDB.
+- When reopened, then the text content is retrieved from IndexedDB.
+- When the install button is clicked, the web application is downloaded to desktop.
+- When it loads, a service worker is registered via workbox.
+- When a service worker registers, then static assets are pre cached upon loading.
+- When deployed to Heroku, proper build scripts ate generated.
 
-
-WHEN I open the text editor
-THEN I find that IndexedDB has immediately created a database storage
-WHEN I enter content and subsequently click off of the DOM window
-THEN I find that the content in the text editor has been saved with IndexedDB
-WHEN I reopen the text editor after closing it
-THEN I find that the content in the text editor has been retrieved from our IndexedDB
-WHEN I click on the Install button
-THEN I download my web application as an icon on my desktop
-WHEN I load my web application
-THEN I should have a registered service worker using workbox
-WHEN I register a service worker
-THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
-WHEN I deploy to Heroku
-THEN I should have proper build scripts for a webpack application
 ## Deployed application
 
 ### Github Repository
