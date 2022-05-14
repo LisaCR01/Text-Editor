@@ -31,9 +31,9 @@ In this project I built a single page text editor application; that runs in the 
 - When deployed to Heroku, proper build scripts ate generated.
 
 ## Deployed application
+[Link to heroku deployed application](https://fierce-dawn-38653.herokuapp.com/)
 
 ### Github Repository
-https://github.com/LisaCR01/Text-Editor.git
 [Link to Github Repository](https://github.com/LisaCR01/Text-Editor.git)
 
 ### Screenshot of Application
