@@ -36,6 +36,9 @@ In this project I built a single page text editor application; that runs in the 
 https://github.com/LisaCR01/Text-Editor.git
 [Link to Github Repository](https://github.com/LisaCR01/Text-Editor.git)
 
+### Screenshot of Application
+![JAVE text editor](./Assets/Images/JAVE.png?raw=true)
+
 ## Contact Information
 - [Email](mailto:lcrgunn@gmail.com)
 - [Github](https://github.com/LisaCR01)
